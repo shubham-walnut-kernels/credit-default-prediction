@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Credit Default Prediction</title>
+
+<style>
+    body {
+        font-family: 'Inter', Arial, sans-serif;
+        background: #f8f9fc;
+        margin: 0;
+        padding: 0;
+        color: #1f2937;
+    }
+    header {
+        background: linear-gradient(135deg, #7c3aed, #4c1d95);
+        padding: 50px 20px;
+        text-align: center;
+        color: #fff;
+    }
+    h1 {
+        margin: 0;
+        font-size: 42px;
+        font-weight: 700;
+    }
+    .subtitle {
+        font-size: 18px;
+        margin-top: 8px;
+        opacity: 0.85;
+    }
+    .container {
+        max-width: 1000px;
+        margin: 40px auto;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 24px;
+    }
+    .card {
+        background: #fff;
+        padding: 24px;
+        border-radius: 16px;
+        box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .card h2 {
+        margin-top: 0;
+        font-size: 22px;
+        color: #7c3aed;
+    }
+    .button {
+        display: inline-block;
+        padding: 12px 20px;
+        background: #7c3aed;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 600;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .button:hover {
+        background: #4c1d95;
+    }
+    .summary-box {
+        background: #f1f5ff;
+        padding: 18px;
+        border-radius: 12px;
+        border-left: 5px solid #7c3aed;
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    footer {
+        text-align: center;
+        padding: 24px;
+        color: #6b7280;
+        font-size: 15px;
+        margin-top: 30px;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Credit Default Prediction</h1>
+    <p class="subtitle">Machine Learning Classification | Credit Risk & Loss Optimization</p>
+</header>
+
+<div class="container">
+
+    <!-- FULL WIDTH SUMMARY CARD -->
+    <div class="card" style="grid-column: 1 / -1;">
+        <h2>📌 Business Impact</h2>
+        <div class="summary-box">
+            Built a credit risk classification system to predict customer default behavior using repayment history and credit utilization signals.<br><br>
+            Identified early-warning risk patterns from partial payments, non-payments, and high-utilization segments.<br><br>
+            Optimized decision thresholds using expected-loss minimization and cost-weighted evaluation.<br><br>
+            Revealed strong loss concentration, enabling targeted risk mitigation instead of blanket credit tightening.<br><br>
+            Delivered business-aligned insights to reduce credit losses while preserving low-risk customer growth.
+        </div>
+    </div>
+
+    <!-- NOTEBOOK CARD (FIRST) -->
+    <div class="card">
+        <h2>📘 Notebook</h2>
+        <p>Explore the complete modeling, evaluation, and insights:</p>
+        <a class="button" href="./Credit_Default_Prediction.ipynb" target="_blank">📘 View Notebook</a>
+    </div>
+
+    <!-- DATASET CARD -->
+    <div class="card">
+        <h2>📂 Dataset</h2>
+        <p>Raw data used for training and risk analysis:</p>
+        <a class="button" href="credit_default.xls" target="_blank">⬇ Download credit_default.xls</a>
+    </div>
+
+    <!-- REPO CARD -->
+    <div class="card">
+        <h2>🔗 Repository</h2>
+        <p>View the full project source code and documentation:</p>
+        <a class="button" href="https://github.com/shubham-walnut-kernels/credit-default-prediction" target="_blank">🔍 View on GitHub</a>
+    </div>
+
+</div>
+
+<footer>© 2025 Shubham – Credit Default Prediction Project</footer>
+
+</body>
+</html>
